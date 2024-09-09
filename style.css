@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(98, 21, 21);
+    color: white;
+    font-family:"Share Tech Mono", monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button{
+    background-color: rgb(195, 141, 141);
+    color: white;
+    font-family:"Share Tech Mono", monospace;
+}
+
+.passo{
+    display: none;
+}
+
+.passo.ativo{
+    display: block;
+}
+
+main{
+    text-align: center;
+    max-width: 90%;
+}
+
+img{
+    max-width: 65%;
+}
